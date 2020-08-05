@@ -1,0 +1,105 @@
+.terms-page {
+  height: 310px;
+  background: #888AF7;
+  box-shadow: 0px 10px 20px rgba(136, 138, 247, 0.2);
+  border-radius: 0px 0px 40px 40px;
+  margin-top: -3px;
+  position: relative; }
+  .terms-page h1 {
+    padding-top: 77px;
+    width: 17%;
+    margin: auto; }
+  .terms-page :nth-child(2) {
+    position: absolute;
+    top: 44%;
+    left: 23%; }
+  .terms-page :nth-child(3) {
+    position: absolute;
+    top: 36%;
+    right: 17%; }
+  .terms-page :nth-child(4) {
+    position: absolute;
+    top: 12%;
+    left: 28%; }
+  .terms-page :nth-child(5) {
+    position: absolute;
+    top: 17%;
+    right: 25%; }
+  .terms-page :nth-child(6) {
+    position: absolute;
+    top: 70%;
+    left: 16%; }
+  .terms-page :nth-child(7) {
+    position: absolute;
+    top: 65%;
+    right: 23%; }
+  .terms-page :nth-child(8) {
+    position: absolute;
+    top: 56%;
+    left: 28%; }
+  .terms-page :nth-child(9) {
+    position: absolute;
+    top: 12%;
+    right: 33%; }
+  .terms-page :nth-child(10) {
+    position: absolute;
+    top: 54%;
+    right: 29%; }
+  .terms-page :nth-child(11) {
+    position: absolute;
+    top: 19%;
+    left: 16%; }
+  .terms-page :nth-child(12) {
+    position: absolute;
+    top: 30%;
+    right: 27%; }
+
+.terms-wrap {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  max-width: 1005px;
+  padding: 41px 76px 60px; }
+  .terms-wrap ol li {
+    padding-bottom: 37px;
+    color: #7273CA;
+    list-style-type: decimal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px; }
+    .terms-wrap ol li p {
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+      font-size: 16px;
+      padding-top: 33px;
+      color: #6F678B;
+      font-family: "Circe", sans-serif;
+      margin-left: -16px; }
+      .terms-wrap ol li p a {
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #8B8CD4; }
+      .terms-wrap ol li p span {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6F678B; }
+    .terms-wrap ol li ul li {
+      list-style-type: none;
+      position: relative;
+      padding: 0 0 0 60px; }
+      .terms-wrap ol li ul li :after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #6F678B;
+        top: 42px;
+        left: 0; }
+
+/*# sourceMappingURL=terms_service.css.map */

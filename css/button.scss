@@ -1,0 +1,28 @@
+.button{
+    background: #9294F8;
+    box-shadow: 0px 10px 20px rgba(145, 147, 248, 0.2);
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+    &_icon{
+        background: #8789EF;
+        box-shadow: 0px 4px 20px rgba(146, 147, 248, 0.2);
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        
+        img{
+            align-items: center;
+        }
+    }
+}

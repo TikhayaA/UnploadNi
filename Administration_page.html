@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/datepicker/datepicker.material.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Administration_page</title>
+    <script src="js/datepicker/datepicker.js"></script>
+</head>
+
+<body>
+    <div class="blackout"></div>
+    <header>
+        <div class="row container">
+            <div><img src="img/logo.png" alt=""></div>
+            <div class="field">
+                <div class="select" data-state="">
+                    <div class="select__title" data-default="">EN</div>
+                    <div class="select__content">
+                        <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect1" class="select__label">EN</label>
+                        <input id="singleSelect2" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect2" class="select__label select__label2">FR</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="radius"></div>
+    <main class="container content-wrap row ">
+        <div class="content-wrap_content col">
+            <div class="content-wrap_content__section row">
+                <div class="share">
+                    <p class="title-block title-bottom">Share info</p>
+                    <div class="share_date row">
+                        <div class="share_date__block input_block row ">
+                            <label for="created">create date:</label>
+                            <input class="input_link" type="text" name="" id="created" value="07.07.2020" readonly>
+                        </div>
+
+                        <div class="share_date__block input_block row">
+                            <label for="expire">expire date:</label>
+                            <input class="input_link" id="datepicker" type="text" name="">
+                            <div class="pen-edit-pos "><img src="img/administrator_page/pen.svg" alt=""></div>
+                            <div class="save-edit  pen-edit-pos"><img src="img/administrator_page/save.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="share_message col">
+                        <div class="share_message__title row">
+                            <p>message:</p>
+                            <div class="edit-wrap row">
+                                <div class="pen-edit-area"><img src="img/administrator_page/pen.svg" alt=""></div>
+                                <div class="save-edit-area"><img src="img/administrator_page/save.svg" alt=""></div>
+                                <div class="cancel-edit"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <textarea name="" id="" cols="10" rows="10" readonly>Lorem ipsum dolor sit amet, consectetura dipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua sit amet, consecteturad ipiscing elit.</textarea>
+                    </div>
+                    <div class="share_btn"><a href="#">Cancel</a></div>
+                </div>
+                <div class="link">
+                    <p class="title-block title-bottom">Private link</p>
+                    <div class="row link_wrap"><input class="input_block input_link  input_private" type="text" name="" id="" value="https://lorem.ipsum/blog/7177" readonly>
+                        <div class="link_wrap__btn button_icon">
+                            <a href="#"><img src="img/administrator_page/link_btn.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="link_icon row">
+                        <div class="link_icon__block">
+                            <a href="#"><img src="img/administrator_page/facebook.svg" alt=""></a>
+                        </div>
+                        <div class="link_icon__block">
+                            <a href="#"><img src="img/administrator_page/twitter.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="link_button">
+                        <div class="button open-modal row">
+                            <div class="button_icon"><img src="img/administrator_page/@.svg" alt=""></div><span>share via email</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-wrap">
+                    <div class="row modal-wrap_title">
+                        <p class="title-block">Send an email</p>
+                        <div class="button_icon modal_close"><img src="img/administrator_page/close icon.svg" alt=""></div>
+                    </div>
+
+                    <form class="" action="">
+                        <div class="modal-wrap__block input_block row ">
+                            <label for="">from:</label>
+                            <input class="input_link" type="text" name="" id="" value="johndoe@mail.com ">
+                        </div>
+                        <div class="modal-wrap__block input_block row ">
+                            <label for="">to:</label>
+                            <input class="input_link modal-wrap_input" type="text" name="" id="" value="johndoe@mail.com; ">
+                            <input class="input_link modal-wrap_input" type="text" name="" id="" value="johndoe@mail.com; ">
+                            <input class="input_link modal-wrap_input" type="text" name="" id="" value="johndoe@mail.com; ">
+
+                        </div>
+                        <div class="share_message modal-wrap_message col">
+                            <div class="share_message__title row">
+                                <p>message:</p>
+                            </div>
+                            <textarea name="" id="" cols="10" rows="10">Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sit amet, consecteturad  ipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sit amet, consecteturad ipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sit amet, consecteturad ipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sit amet, consecteturad ipiscing elit. </textarea>
+                        </div>
+                        <div class="button modal-wrap_btn">Send
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+            <div class="banner banner_desktop col">
+                <p class="banner_title">Automate Donation</p>
+                <p class="banner_text">For your NPO</p>
+                <div class="banner_btn"><a href="#">start now</a></div>
+                <div class="banner_img"><img src="img/administrator_page/picture.png" alt=""></div>
+                <div><img src="img/administrator_page/Group 11.svg" alt=""></div>
+            </div>
+            <div class="content-wrap_content__section">
+                <div class="files">
+                    <div class="files_title row">
+                        <p class="title-block title-bottom">Share info</p>
+                        <p>Max : 20 files</p>
+                    </div>
+                    <div class="files_table">
+                        <div class="files_table__title row">
+                            <div class="name">Name</div>
+                            <div class="size">Size</div>
+                            <div class="download"># of downloads</div>
+                            <div class="last_download">Last download</div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">pdf</div>
+                                <div>document.pdf</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">jpg</div>
+                                <div>photo.jpg</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">docx</div>
+                                <div>document.docx</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">pdf</div>
+                                <div>document.pdf</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">jpg</div>
+                                <div>photo.jpg</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">docx</div>
+                                <div>document.docx</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_table__body row">
+                            <div class="name-body row">
+                                <div class="name-body_btn">docx</div>
+                                <div>document.docx</div>
+                            </div>
+                            <div class="size-body">77 mb</div>
+                            <div class="download-body">17</div>
+                            <div class="last_download-body row">
+                                <div>07.07.2020, <span>17:29</span></div>
+                                <div class="last_download-body_delete"><img src="img/administrator_page/cancel.svg" alt=""></div>
+                                <div class="last_download-body_download"><img src="img/administrator_page/download icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="files_button">
+                            <div class="button open-modal files_button__pos row"><span>global download</span>
+                                <div class="button_icon"><img src="img/administrator_page/download_files.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="banner banner_none col">
+            <p class="banner_title">Automate Donation</p>
+            <p class="banner_text">For your NPO</p>
+            <div class="banner_btn"><a href="#">start now</a></div>
+            <div class="banner_img"><img src="img/administrator_page/picture.png" alt=""></div>
+            <div><img src="img/administrator_page/Group 11.svg" alt=""></div>
+        </div>
+
+    </main>
+    <footer class="col">
+        <div class="col container">
+            <div class="footer-top">
+                <img src="img/logo.png" alt="">
+                <nav>
+                    <ul class="row">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bott">
+            <div class="container row">
+                <nav>
+                    <ul class="row">
+                        <li><a href="#">Terms of Service & Privacy Policy</a></li>
+                        <li><a href="#">Legal notice</a></li>
+                    </ul>
+                </nav>
+                <div class="all_rights">All rights reserved © 2020</div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.link {
+  width: 360px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 30px 30px;
+  box-sizing: border-box; }
+  .link_wrap {
+    justify-content: space-between; }
+    .link_wrap .input_private {
+      width: 65%;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #9F95C5;
+      text-transform: none; }
+    .link_wrap__btn a {
+      display: inline-block;
+      width: 100%; }
+      .link_wrap__btn a img {
+        width: 14px;
+        height: 15px; }
+  .link_icon {
+    margin-top: 20px; }
+    .link_icon__block {
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      margin-right: 15px; }
+      .link_icon__block a {
+        display: inline-block;
+        padding: 17px; }
+        .link_icon__block a img {
+          text-align: center;
+          width: 100%;
+          height: 100%; }
+  .link_button {
+    margin: 106px 0 23px; }
+    .link_button span {
+      margin: auto; }
+
+.chips {
+  display: flex; }
+  .chips .chip {
+    padding: 6px 11px;
+    background: #F1EEFC !important;
+    margin-right: 21px;
+    border-radius: 7px;
+    border: none;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7B7BA4;
+    display: inline-block;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 32px;
+    margin-bottom: 5px; }
+    .chips .chip .material-icons {
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased; }
+    .chips .chip .close {
+      position: relative;
+      cursor: pointer;
+      float: right;
+      line-height: 32px;
+      font-size: 0;
+      padding: 0 15px; }
+    .chips .chip .close:after {
+      content: '';
+      width: 15px;
+      top: 25%;
+      right: 4px;
+      height: 15px;
+      position: absolute;
+      background: url(../img/close-icon.svg) 0 0 no-repeat;
+      background-size: contain; }
+
+/*# sourceMappingURL=link.css.map */

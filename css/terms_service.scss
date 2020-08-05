@@ -1,0 +1,336 @@
+main{
+    min-height: calc(100vh - 174px);
+}
+.terms-page{
+    height: 310px;
+    background: #888AF7;
+    box-shadow: 0px 10px 20px rgba(136, 138, 247, 0.2);
+    border-radius: 0px 0px 40px 40px;
+    margin-top: -3px;
+    position: relative;
+}
+.terms-page-img{
+    position: relative;
+    h1{
+        padding-top: 40px;
+        width: 25%;
+        margin: auto;
+        @media screen and (max-width: 1200px){
+            width: 39%;
+        }
+        @media screen and (max-width: 720px){
+            width: 44%;
+        }
+        @media screen and (max-width: 640px){
+            width: 50%;
+            font-size: 32px;
+        }
+        @media screen and (max-width: 510px){
+            width: 55%;
+            font-size: 30px;
+        }
+        @media screen and (max-width: 430px){
+            width: 59%;
+            font-size: 24px;
+        }
+
+    }
+    :nth-child(2){
+        position: absolute;
+        top: 67%;
+        left: 11%;
+        @media screen and (max-width: 500px){
+            display: none;
+        }
+    }
+    :nth-child(3){
+        position: absolute;
+        top: 36%;
+        right: 2%;
+        @media screen and (max-width: 500px){
+            display: none;
+        }
+    }
+    :nth-child(4){
+        position: absolute;
+        top: 12%;
+        left: 14%;
+        @media screen and (max-width: 500px){
+            display: none;
+        }
+    }
+    :nth-child(5){
+        position: absolute;
+        top: 17%;
+        right: 11%;
+    }
+    :nth-child(6){
+        position: absolute;
+        top: 117%;
+        left: 2%;
+    }
+    :nth-child(7){
+        position: absolute;
+        top: 91%;
+        right: 8%;
+    }
+    :nth-child(8){
+        position: absolute;
+        top: 95%;
+        left: 18%;
+    }
+    :nth-child(9){
+        position: absolute;
+        top: 1%;
+        right: 24%;
+    }
+    :nth-child(10){
+        position: absolute;
+        top: 95%;
+        right: 18%;
+    }
+    :nth-child(11){
+        position: absolute;
+        top: 28%;
+        left: 2%;
+    }
+    :nth-child(12){
+        position: absolute;
+        top: 46%;
+        right: 12%;
+        @media screen and (max-width: 500px){
+            display: none;
+        }
+    }
+}
+.terms-wrap {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    width: 1005px;
+    padding: 5px 74px 74px 74px;
+    box-sizing: border-box;
+    position: relative;
+    top: -93px;
+    @media screen and (max-width: 1200px){
+        width: 80%;
+    }
+    @media screen and (max-width: 760px){
+        padding: 5px 40px 64px 40px;
+    }
+    @media screen and (max-width: 600px){
+        padding: 5px 30px 34px 30px;
+    }
+    ol{
+        padding-left: 18px;
+        li{
+            color: #7273CA;
+            list-style-type: decimal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 29px;
+            padding-top: 37px;
+            @media screen and (max-width: 600px){
+                padding-top: 20px;
+            }
+            @media screen and (max-width: 500px){
+                font-size: 14px;
+            }
+            @media screen and (max-width: 400px){
+                font-size: 12px;
+            }
+            >p{ font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                font-size: 16px;
+                padding-top: 33px;
+                color:#6F678B;
+                font-family: "Circe", sans-serif;
+                margin-left: -16px;
+                @media screen and (max-width: 600px){
+                    padding-top: 20px
+                }
+                @media screen and (max-width: 500px){
+                    font-size: 12px;
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color:#8B8CD4;
+                    @media screen and (max-width: 500px){
+                        font-size: 12px;
+                    }
+                }
+                span{
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color:#6F678B;
+                    @media screen and (max-width: 500px){
+                        font-size: 12px;
+                    }
+                }
+            }
+           .nested-list{
+               list-style-type: none!important;
+               color: #7273CA!important;
+               font-weight: normal!important;
+               font-size: 20px;
+               line-height: 29px!important;
+               margin-left: -19px;
+               padding-top: 37px;
+               @media screen and (max-width: 500px){
+                font-size: 14px;
+            }
+               >p{
+                margin-left: 0;
+                span{
+                    color: #7273CA!important;
+                    font-weight: normal!important;
+                    font-size: 20px!important;
+                    line-height: 29px!important;
+                    @media screen and (max-width: 500px){
+                        font-size: 12px;
+                    }
+                   }
+               }
+               &_first{
+                padding-top: 37px;
+               }
+               &_last{
+                padding-bottom: 0;
+               }
+                &_circle{
+                    list-style-type: none;
+                    position: relative;
+                    padding:  0 0 0 45px;
+                    >:after{
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background:#6F678B;
+                        top: 17px;
+                        left: 12px;
+                        @media screen and (max-width: 600px){
+                            top: 19px;
+                        }
+                    }
+                    >p{
+                        padding-top: 10px;
+                    }
+                }
+                &_circle-pad{
+                    padding-left: 69px;
+                    >:after{
+                        top: 17px;
+                        left: 33px;
+                    }
+                }
+           }
+        }
+        .nested-ol{
+            padding-left: 0;
+        }
+    }
+ 
+    .ten-nested{
+        padding-left: 30px;
+        @media screen and (max-width: 600px){
+            font-size: 14px;
+        }
+       
+        p{
+            margin-left: -31px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+            font-size: 16px;
+            padding-top: 33px;
+            color: #6F678B;
+            @media screen and (max-width: 600px){
+                padding-top: 20px;
+                font-size: 12px;
+            }
+        }
+        &_ol{
+            margin-left: -38px;
+            p{
+                margin-left: -11px;
+                @media screen and (max-width: 600px){
+                    padding-top: 20px;
+                    font-size: 12px;
+                }
+                span{
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6F678B;
+                    @media screen and (max-width: 500px){
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .nested-list_line{
+            list-style-type: none;
+            position: relative;
+            padding:  0;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #6F678B;
+            padding-top: 37px;
+            padding-left: 15px;
+            @media screen and (max-width: 600px){
+                padding-top: 20px
+            }
+            @media screen and (max-width: 500px){
+                font-size: 14px;
+            }
+            &:after{
+                position: absolute;
+                display: block;
+                content: "";
+                width: 5px;
+                height: 1px;
+                background:#6F678B;
+                top: 46px;
+                left: -0px;
+                @media screen and (max-width: 600px){
+                    top: 31px;
+                }
+                @media screen and (max-width: 500px){
+                    top: 33px;
+                }
+
+            }
+            p{
+                margin-left:-16px;
+            }
+        }
+        .nested-list_ten{
+            padding-left: 10px;
+        }
+        
+    }
+    
+}
+.pad-bot{
+    padding-bottom: 33px;
+    @media screen and (max-width: 600px){
+        padding-bottom: 20px
+    }
+}
+.a-style{
+    @media screen and (max-width: 1000px){
+        width: 50%;
+        overflow: hidden;
+        display: inline-block;
+        height:18px;
+    }
+}

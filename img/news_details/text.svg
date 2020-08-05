@@ -1,0 +1,15 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="5.9541" width="32.5944" height="32.5944" rx="16.2972" transform="rotate(-10.5253 0 5.9541)" fill="url(#paint0_linear)"/>
+<path d="M17.3535 15.0146L23.793 14.0004" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.9629 18.8789L24.4024 17.8646" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.5703 22.7412L25.0098 21.7269" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse rx="1.30373" ry="1.30187" transform="matrix(0.987857 -0.155366 0.155821 0.987785 14.7076 23.4135)" fill="white"/>
+<ellipse rx="1.30373" ry="1.30187" transform="matrix(0.987857 -0.155366 0.155821 0.987785 14.0982 19.5551)" fill="white"/>
+<ellipse rx="1.30373" ry="1.30187" transform="matrix(0.987857 -0.155366 0.155821 0.987785 13.4908 15.6977)" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear" x1="16.2972" y1="5.9541" x2="16.2972" y2="38.5485" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFDEBF"/>
+<stop offset="1" stop-color="#FFCC9C"/>
+</linearGradient>
+</defs>
+</svg>

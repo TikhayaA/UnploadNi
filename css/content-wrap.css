@@ -1,0 +1,23 @@
+.content-wrap {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px; }
+  .content-wrap_content {
+    width: 945px;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .content-wrap_content__section {
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 30px; }
+  .content-wrap .title-block {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #7273CA; }
+  .content-wrap .title-bottom {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=content-wrap.css.map */

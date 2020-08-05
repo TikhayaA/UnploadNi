@@ -1,0 +1,64 @@
+.modal-wrap{
+    display: none;
+    width: 70%;
+    z-index: 11;
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 20px 30px;
+    @media screen and (max-width: 1200px){
+        left:10%;
+    }
+    &_title{
+        justify-content: space-between;
+        margin-bottom: 22px;
+        p{
+            align-self: center;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #7273CA;
+        }
+    }
+    &__block{
+        margin-bottom: 20px;
+        label{
+            margin-right: 10px;
+        }
+        input{
+            width: 90%;
+        }
+    }
+    &_btn{
+        width: 15%;
+        padding: 15px;;
+        text-align: center;
+        float: right;
+        @media screen and (max-width: 1200px){
+           margin-top: 20px;
+        }
+    }
+    &_input {
+        max-width: 120px;
+        padding: 6px 11px;
+        background: #F1EEFC!important;
+        margin-right: 21px;
+        border-radius: 7px;
+        height: 32px;
+    }
+    &_message{
+        height: 250px;
+        @media screen and (max-width: 1200px){
+            width: 100%;
+        }
+    }
+}
+.modal_close{
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+footer {
+  background: #888AF7;
+  box-shadow: 0px 4px 30px rgba(139, 139, 139, 0.05);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px; }
+  footer > .col.container {
+    width: 100%; }
+  footer .footer-top {
+    position: relative;
+    padding: 32px 0; }
+    footer .footer-top img {
+      position: absolute;
+      left: 0;
+      transform: translate(0px, -50%);
+      top: 50%; }
+    footer .footer-top nav ul {
+      justify-content: center;
+      margin: auto; }
+      @media screen and (max-width: 600px) {
+        footer .footer-top nav ul {
+          width: 56%; } }
+      footer .footer-top nav ul li {
+        margin-right: 58px; }
+        footer .footer-top nav ul li a {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #FFFFFF;
+          text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+          text-decoration: none; }
+          @media screen and (max-width: 500px) {
+            footer .footer-top nav ul li a {
+              font-size: 10px; } }
+        footer .footer-top nav ul li:last-child {
+          margin-right: 0; }
+  footer .footer-bott {
+    background: #7F81EA;
+    justify-content: flex-end; }
+    footer .footer-bott > .container.row {
+      justify-content: center;
+      position: relative; }
+    footer .footer-bott nav {
+      width: 50%; }
+      footer .footer-bott nav ul {
+        justify-content: space-around;
+        margin: auto; }
+        @media screen and (max-width: 500px) {
+          footer .footer-bott nav ul {
+            width: 95%; } }
+        footer .footer-bott nav ul li {
+          margin: 16px 0; }
+          footer .footer-bott nav ul li a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 18px;
+            color: rgba(255, 255, 255, 0.67);
+            text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+            text-decoration: none; }
+            @media screen and (max-width: 500px) {
+              footer .footer-bott nav ul li a {
+                font-size: 10px; } }
+            @media screen and (max-width: 400px) {
+              footer .footer-bott nav ul li a {
+                font-size: 8px; } }
+    footer .footer-bott .all_rights {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.67);
+      align-self: center;
+      position: absolute;
+      right: 0; }
+
+/*# sourceMappingURL=footer.css.map */

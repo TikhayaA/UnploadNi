@@ -1,0 +1,105 @@
+.share {
+  background: #FFFFFF;
+  border-radius: 25px;
+  max-width: 555px;
+  padding: 30px 30px;
+  box-sizing: border-box; }
+  .share_date {
+    justify-content: space-between;
+    width: 100%;
+    margin: auto; }
+    .share_date__block {
+      width: 40%;
+      position: relative; }
+      .share_date__block .pen-edit-pos {
+        position: absolute;
+        right: 14px;
+        top: 25%; }
+    .share_date .input-edit {
+      background: #FFFFFF;
+      border: 2px solid #F1F0FF;
+      border-radius: 10px; }
+      .share_date .input-edit .input_link {
+        background: #FFFFFF; }
+  .share_message {
+    background: #F8F8FB;
+    border-radius: 10px;
+    margin: 25px auto;
+    height: 150px;
+    padding: 20px; }
+    .share_message__title {
+      justify-content: space-between;
+      padding-bottom: 16px; }
+      .share_message__title > p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #7577B6; }
+    .share_message textarea {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      color: #7B7BA4;
+      opacity: 0.8;
+      outline: none;
+      resize: none;
+      border: none;
+      background: #F8F8FB;
+      font-family: Circe, sans-serif; }
+    .share_message.input-edit {
+      background: #FFFFFF;
+      border: 2px solid #F1F0FF;
+      border-radius: 10px; }
+      .share_message.input-edit textarea {
+        background: #FFFFFF; }
+  .share_btn {
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0 6px; }
+    .share_btn a {
+      font-family: "Poppins",sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.05em;
+      text-decoration-line: underline;
+      text-transform: uppercase;
+      color: #8B8CD4; }
+  .share .pen-edit-pos {
+    cursor: pointer; }
+  .share .pen-edit-area {
+    cursor: pointer; }
+  .share .save-edit {
+    display: none;
+    cursor: pointer; }
+  .share .save-edit-area {
+    display: none;
+    cursor: pointer; }
+  .share .cancel-edit {
+    display: none;
+    padding-left: 10px;
+    cursor: pointer; }
+
+label {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7577B6;
+  align-self: center; }
+
+/*# sourceMappingURL=share.css.map */

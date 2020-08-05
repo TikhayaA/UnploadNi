@@ -1,0 +1,187 @@
+.legal-notice{
+    .legal-notice-img{
+        background: #888AF7;
+        box-shadow: 0px 10px 20px rgba(136, 138, 247, 0.2);
+        border-radius: 0px 0px 40px 40px;
+        height: 313px;
+        position: relative;
+        margin-top: -3px;
+        h1{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 53px;
+            text-align: center;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+            padding-top: 63px;
+            @media screen and (max-width: 700px){
+                font-size: 30px;
+            }
+        }
+        :nth-child(2){
+            position: absolute;
+            top: 34%;
+            left: 20%;
+            @media screen and (max-width: 700px){
+                top: 18%;
+                left: 6%;
+            }
+        }
+        :nth-child(3){
+            position: absolute;
+            top: 27%;
+            right: 17%;
+            @media screen and (max-width: 700px){
+                top: 33%;
+                right: 15%;
+            }
+            @media screen and (max-width: 500px){
+                display: none;
+              }
+        }
+        :nth-child(4){
+            position: absolute;
+            top: 39%;
+            left: 35%;
+            @media screen and (max-width: 900px){
+                left: 8%;
+            }
+            @media screen and (max-width: 700px){
+                top: 45%;
+                left: 21%;
+            }
+            @media screen and (max-width: 450px){
+                display: none;
+              }
+        }
+        :nth-child(5){
+            position: absolute;
+            top: 22%;
+            left: 31%;
+            @media screen and (max-width: 700px){
+                top: 32%;
+                left: 19%;
+            }
+            @media screen and (max-width: 450px){
+              display: none;
+            }
+        }
+        :nth-child(6){
+            position: absolute;
+            top: 12%;
+            right: 23%;
+            @media screen and (max-width: 450px){
+                display: none;
+              }
+        }
+        :nth-child(7){
+            position: absolute;
+            top: 11%;
+            left: 25%;
+        }
+        :nth-child(8){
+            position: absolute;
+            top: 45%;
+            right: 23%;
+            @media screen and (max-width: 390px){
+                display: none;
+              }
+        }
+        :nth-child(9){
+            position: absolute;
+            top: 44%;
+            left: 26%;
+        }
+        :nth-child(10){
+            position: absolute;
+            top: 1%;
+            left: 63%;
+        }
+        :nth-child(11){
+            position: absolute;
+            top: 45%;
+            right: 29%;
+            @media screen and (max-width: 900px){
+                right: 6%;
+            }
+            @media screen and (max-width: 700px){
+                top: 45%;
+                right: 5%;
+            }
+        }
+        :nth-child(12){
+            position: absolute;
+            top: 10%;
+            left: 21%;
+            @media screen and (max-width: 900px){
+                left: 11%;
+            }
+            @media screen and (max-width: 700px){
+                top: 34%;
+                left: 9%;
+            }
+            @media screen and (max-width: 500px){
+                display: none;
+              }
+        }
+        :nth-child(13){
+            position: absolute;
+            top: 19%;
+            right: 27%;
+            @media screen and (max-width: 700px){
+                top: 6%;
+                right: 5%;
+            }
+        }
+        
+    }
+    &_content{
+        padding: 40px 82px 57px 70px;
+        margin-bottom: 74px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+        width: 1005px;
+        margin-top: -100px;
+        position: relative;
+        box-sizing: border-box;
+        @media screen and (max-width: 800px){
+            width: 80%;
+        }
+        @media screen and (max-width: 600px){
+            padding: 40px 30px 57px 30px;
+        }
+        li{
+            color: #7273CA;
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 35px;
+            p{
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+                font-size: 16px;
+                color: #6F678B;
+            }
+            .p-pad{
+                padding-top:33px;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #8B8CD4;
+            }
+            span{
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #6F678B;
+                padding-right: 3px;
+            }
+        }
+    }
+}
+

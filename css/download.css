@@ -1,0 +1,170 @@
+main {
+  min-height: calc(100vh - 174px); }
+
+.download-page {
+  height: 400px;
+  background: #888AF7;
+  box-shadow: 0px 10px 20px rgba(136, 138, 247, 0.2);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: relative;
+  margin-top: -3px;
+  z-index: 0; }
+  .download-page > div {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 43px; }
+  .download-page_link-wrap {
+    max-width: 360px; }
+    .download-page_link-wrap__block {
+      background: #8082F8;
+      border-radius: 15px;
+      max-width: 360px;
+      padding: 15px;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 20px; }
+    .download-page_link-wrap__block-link {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      color: #D7D7EF;
+      padding-bottom: 10px; }
+    .download-page_link-wrap__block-date {
+      font-weight: bold;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+    .download-page_link-wrap__content {
+      background: rgba(248, 248, 251, 0.2);
+      border: 3px solid rgba(240, 240, 255, 0.2);
+      border-radius: 15px;
+      width: 360px;
+      box-sizing: border-box;
+      padding: 20px 20px 26px 20px;
+      margin-bottom: 39px; }
+      .download-page_link-wrap__content p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        align-items: center;
+        color: #FFFFFF; }
+    .download-page_link-wrap__img {
+      align-self: center; }
+  .download-page_files {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    padding: 35px 33px 34px 35px;
+    width: 555px;
+    box-sizing: border-box; }
+    .download-page_files__title {
+      justify-content: flex-start;
+      margin-bottom: 38px; }
+      .download-page_files__title p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        align-items: center;
+        color: #7273CA;
+        padding-right: 28px; }
+      .download-page_files__title span {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        align-items: center;
+        color: #DFDAFF; }
+    .download-page_files__field-wrap {
+      overflow: hidden;
+      overflow-y: auto;
+      height: 215px; }
+    .download-page_files ::-webkit-scrollbar {
+      width: 6px; }
+    .download-page_files ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(246, 244, 255, 0.8);
+      border-radius: 20px; }
+    .download-page_files ::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+      -webkit-box-shadow: inset 0 0 6px #EDEAFF; }
+    .download-page_files__field {
+      background: #FCFCFE;
+      border-radius: 15px;
+      padding: 8px 8px 8px 6px;
+      box-sizing: border-box;
+      width: 460px;
+      max-height: 60px;
+      margin-bottom: 15px; }
+    .download-page_files__field-format {
+      width: 45px;
+      height: 45px;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 45px;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgba(159, 160, 220, 0.8);
+      background: #F1EEFC;
+      border-radius: 15px;
+      margin-right: 17px; }
+    .download-page_files__field-wrap-name {
+      justify-content: space-around;
+      width: 80%; }
+    .download-page_files__field-name {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 21px;
+      align-items: center;
+      text-transform: uppercase;
+      color: rgba(159, 160, 220, 0.8); }
+    .download-page_files__field-size {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      align-items: center;
+      text-transform: uppercase;
+      color: rgba(159, 160, 220, 0.6); }
+    .download-page_files__field-loading {
+      align-self: center; }
+  .download-page_share {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    padding: 32px 33px 33px 35px;
+    justify-content: space-between;
+    margin-top: 30px; }
+    .download-page_share p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      align-self: center;
+      color: #7273CA;
+      text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1); }
+    .download-page_share__icon-wrap {
+      width: 40%;
+      justify-content: space-around; }
+    .download-page_share__icon {
+      background: #9DE2F2;
+      border-radius: 15px;
+      width: 50px;
+      height: 50px;
+      margin-left: 15px; }
+      .download-page_share__icon a {
+        display: inline-block;
+        padding: 17px; }
+        .download-page_share__icon a img {
+          text-align: center;
+          width: 100%;
+          height: 100%; }
+
+/*# sourceMappingURL=download.css.map */

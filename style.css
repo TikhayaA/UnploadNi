@@ -2262,6 +2262,9 @@ main {
       width: 550px;
       box-sizing: border-box;
       height: 290px; }
+    .faq_block span{
+      text-transform:uppercase;
+    }
       @media screen and (max-width: 1200px) {
         .faq-category .faq-wrap .faq_block {
           width: 347px;

@@ -941,7 +941,15 @@ label {
   padding: 20px 30px; }
   @media screen and (max-width: 1200px) {
     .modal-wrap {
-      left: 10%; } }
+      top: 218px;
+      left: 5%;
+      width: 82%; } }
+  @media screen and (max-width: 750px) {
+    .modal-wrap {
+      left: 50%;
+      top: 34px;
+      width: 75%;
+      transform: translate(-50%, 0); } }
   .modal-wrap_title {
     justify-content: space-between;
     margin-bottom: 22px; }

@@ -10,7 +10,15 @@
     border-radius: 25px;
     padding: 20px 30px;
     @media screen and (max-width: 1200px){
-        left:10%;
+        top: 218px;
+        left: 5%;
+        width: 82%;
+    }
+    @media screen and (max-width: 750px){
+        left:50%;
+        top: 34px;
+        width: 75%;
+        transform: translate(-50%, 0);
     }
     &_title{
         justify-content: space-between;

@@ -1,15 +1,27 @@
 .content-wrap{   
      justify-content: space-between;
      align-items: flex-start;
-     margin-top: 30px;
+     margin-top: 29px;
     &_content{
         width: 945px;
         justify-content: space-between;
         align-items: flex-start;
+        @media screen and (max-width: 1200px){
+            width: 724px;
+        }
+        @media screen and (max-width: 750px){
+            width: auto;
+        }
+        @media screen and (max-width: 400px){
+            width: 100%;
+        }
         &__section{
             width: 100%;
             justify-content: space-between;
             margin-bottom: 30px;
+            @media screen and (max-width: 1200px){
+                align-items: flex-start;
+            }
             @media screen and (max-width: 750px){
                 flex-direction: column;
             }
@@ -24,7 +36,7 @@
         color: #7273CA;
     }
     .title-bottom{
-        margin-bottom: 20px;
+        margin-bottom: 13px;
     }
     
 }

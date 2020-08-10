@@ -2,19 +2,25 @@
     width: 360px;
     background: #FFFFFF;
     border-radius: 20px;
-    padding: 30px 30px;
+    padding: 27px 30px;
     box-sizing: border-box;
     @media screen and (max-width: 1200px){
         width: 347px;
+        padding: 30px 19px 0 30px;
     }
     @media screen and (max-width: 750px){
         margin-top: 20px;
         align-self: center;
+        width: 320px;
+        padding: 20px 19px 0 20px;
+    }
+    @media screen and (max-width: 400px){
+        width: 100%;
     }
     &_wrap{
         justify-content: space-between;
         .input_private{
-            width: 65%;
+            width: 241px;
             font-style: normal;
             font-weight: bold;
             font-size: 12px;
@@ -23,6 +29,16 @@
             align-items: center;
             color: #9F95C5;
             text-transform: none;
+            box-sizing: border-box;
+            @media screen and (max-width: 1200px){
+                width: 237px;
+            }
+            @media screen and (max-width: 750px){
+                width: 220px;
+            }
+            @media screen and (max-width: 400px){
+                width: 77%;
+            }
         }
         &__btn{
             a{
@@ -56,7 +72,10 @@
 
     }
     &_button{
-        margin: 106px 0 23px;
+        margin: 95px 0 0 ;
+        @media screen and (max-width: 1200px){
+            margin: 25px 0 23px;
+        }
         span{
             margin:auto;
         }

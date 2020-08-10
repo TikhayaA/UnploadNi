@@ -6,8 +6,8 @@ let dateBlock = document.getElementsByClassName("share_date__block");
 function editInput() {
     openEdit[0].style.display = "none";
     saveEdit[0].style.display = "block";
-    dateBlock[1].classList.add("input-edit");
-    dateBlock[1].getElementsByClassName("input_link")[0].removeAttribute("readonly");
+    dateBlock[0].classList.add("input-edit");
+    dateBlock[0].getElementsByClassName("input_link")[0].removeAttribute("readonly");
 }
 console.log(inputDate)
 if (inputDate !== null) {
@@ -61,30 +61,7 @@ document.body.onclick = function(e) {
     }
 }
 
-let openModal = document.getElementsByClassName("open-modal");
-let blackout = document.getElementsByClassName("blackout");
-let modalWrap = document.getElementsByClassName("modal-wrap");
-let modalClosebtn = document.getElementsByClassName("modal_close")
-let downloadPpageOopenmodal = document.getElementsByClassName("download-page_openmodal")
 
-function openModalWrap() {
-    blackout[0].style.display = "block";
-    modalWrap[0].style.display = "block";
-}
-
-function modalClose() {
-    blackout[0].style.display = "none";
-    modalWrap[0].style.display = "none";
-}
-if (openModal[0] !== undefined) {
-    openModal[0].addEventListener("click", openModalWrap);
-}
-if (downloadPpageOopenmodal[0] !== undefined) {
-    downloadPpageOopenmodal[0].addEventListener("click", openModalWrap);
-}
-if (modalClosebtn[0] !== undefined) {
-    modalClosebtn[0].addEventListener("click", modalClose);
-}
 
 $(function() {
     // Owl Carousel
@@ -110,6 +87,54 @@ $(function() {
         owl.trigger("prev.owl.carousel");
     });
 });
-
+// admin-page
 let datepicker = new Datepicker('#datepicker');
 $("#datepicker").val('12.08.2020');
+
+
+let openModal = document.getElementsByClassName("open-modal");
+let blackout = document.getElementsByClassName("blackout");
+let modalWrap = document.getElementsByClassName("modal-wrap");
+let modalClosebtn = document.getElementsByClassName("modal_close")
+let downloadPpageOopenmodal = document.getElementsByClassName("download-page_openmodal")
+
+function openModalWrap() {
+    blackout[0].style.display = "block";
+    modalWrap[0].style.display = "block";
+}
+
+function modalClose() {
+    blackout[0].style.display = "none";
+    modalWrap[0].style.display = "none";
+}
+if (openModal[0] !== undefined) {
+    openModal[0].addEventListener("click", openModalWrap);
+}
+if (downloadPpageOopenmodal[0] !== undefined) {
+    downloadPpageOopenmodal[0].addEventListener("click", openModalWrap);
+}
+if (modalClosebtn[0] !== undefined) {
+    modalClosebtn[0].addEventListener("click", modalClose);
+}
+let openDropDownBtn = document.getElementsByClassName("files_download-ipad-wrap_menu");
+let closeDropDownBtn = document.getElementsByClassName("files_download-ipad-wrap_menu-open");
+let dropDown = document.getElementsByClassName("files_download-ipad-wrap__btn");
+function openDropDown(element, index) {
+    closeDropDownBtn[index].style.display = "block";
+    openDropDownBtn[index].style.display = "none";
+    dropDown[index].style.display = "block";
+}
+function closeDropDown(element, index) {
+    closeDropDownBtn[index].style.display = "none";
+    openDropDownBtn[index].style.display = "block";
+    dropDown[index].style.display = "none";
+}
+let newOpenDropDownBtn = Object.values(openDropDownBtn);
+newOpenDropDownBtn.forEach(function(element, i){
+    element.addEventListener("click", () => openDropDown(element, i));
+});
+let newCloseDropDownBtn = Object.values(closeDropDownBtn);
+newCloseDropDownBtn.forEach(function(element, i){
+    element.addEventListener("click", () => closeDropDown(element, i));
+});
+

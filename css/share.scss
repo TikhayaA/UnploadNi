@@ -1,15 +1,20 @@
 .share{
     background: #FFFFFF;
     border-radius: 25px;    
-    max-width: 555px;
-    padding: 30px 30px;
+    width: 555px;
+    padding: 26px 30px 27px;
     box-sizing: border-box;
     @media screen and (max-width: 1200px){
         padding: 30px 30px 20px;
+        width: 347px;
     }
     @media screen and (max-width: 750px){
         align-self: center;
-        width: 80%;
+        width: 320px;
+        padding: 20px 19px 20px 20px;
+    }
+    @media screen and (max-width: 400px){
+        width: 98%;
     }
     &_date{
        justify-content: space-between;
@@ -19,12 +24,19 @@
             flex-direction: column;
         }
         &__block{
-            width: 40%;
+            width: 235px;
             position: relative;
+            box-sizing: border-box;
             @media screen and (max-width: 1200px){
                 width: 290px;
                 box-sizing: border-box;
                 margin-bottom: 20px;
+            }
+            @media screen and (max-width: 750px){
+                width: 280px;
+            }
+            @media screen and (max-width: 400px){
+                width: 100%;
             }
             .pen-edit-pos{
                 position: absolute;
@@ -47,17 +59,24 @@
         border-radius: 10px;
         margin: 25px auto;
         height: 150px;
-        padding: 20px;
+        padding: 14px 20px 20px 20px;
+        box-sizing: border-box;
         @media screen and (max-width: 1200px){
             box-sizing: border-box;
             margin: 0 auto;
             width: 290px;
             padding: 20px 14px;
-            height: 165px;
+            height: 180px;
+        }
+        @media screen and (max-width: 750px){
+            width: 280px;
+        }
+        @media screen and (max-width: 400px){
+            width: 100%;
         }
         &__title{
             justify-content: space-between;
-            padding-bottom: 16px;
+            padding-bottom: 11px;
             >p{
                 font-family: "Poppins", sans-serif;
                 font-style: normal;
@@ -100,7 +119,6 @@
     &_btn{
         cursor: pointer;
         text-align: center;
-        margin: 10px 0 6px;
         @media screen and (max-width: 1200px){
             margin: 20px 0 0;
         }
@@ -147,30 +165,6 @@ label{
     text-transform: uppercase;
     color: #7577B6;
     align-self: center;
-}
-.datepicker__header {
-    background: #888AF7;
-}
-.datepicker table th {
-    color: #888AF7;
-}
-.datepicker__day.is-disabled, .datepicker__day.is-otherMonth {
-    color: #888AF7;
-}
-.datepicker__day.is-today {
-    color: #888AF7;
-}
-
-.datepicker__wrapper {
-    border: 1px solid #888AF7;
-}
-.datepicker__day.is-selected div {
-    background: #888AF7;
-}
-.datepicker__day div:hover, .datepicker__day.is-highlighted div {
-    background: #888AF7;
-}
-.datepicker__day.is-selected:hover div::after {
-    background: #888AF7;
+    padding-right: 13px;
 }
 

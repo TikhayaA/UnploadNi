@@ -1,10 +1,13 @@
 .faq-form{
     background: rgba(136, 138, 247, 0.9);
-    box-shadow: 0px 4px 30px rgba(145, 147, 248, 0.2);
+    -webkit-box-shadow: 0px 4px 30px rgba(145, 147, 248, 0.2);
+            box-shadow: 0px 4px 30px rgba(145, 147, 248, 0.2);
     border-radius: 25px;
     padding: 51px 44px 50px 48px;
     margin: 77px 0;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     @media screen and (max-width: 750px){
         display: none; 
     }
@@ -31,14 +34,20 @@
     }
     &_wrap{
         width: 608px;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         @media screen and (max-width: 1200px){
                 width: 377px;  
             }
         form >div{
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             @media screen and (max-width: 1200px){
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 width: 100%;
             }
         }
@@ -48,7 +57,8 @@
             background: #8789EF;
             border-radius: 10px;
             padding: 15px 20px 17px 20px;
-            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
             @media screen and (max-width: 1200px){
                 width: 337px;
                 margin-bottom: 25px;
@@ -59,8 +69,12 @@
                 font-weight: 600;
                 font-size: 12px;
                 line-height: 18px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 letter-spacing: 0.05em;
                 text-transform: uppercase;
                 color: #D2D4FF;
@@ -86,7 +100,8 @@
             width: 608px;
             background: #8789EF;
             border-radius: 10px;
-            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
             padding: 20px;
             margin-top: 30px;
             height: 150px;
@@ -101,8 +116,12 @@
                 font-weight: 600;
                 font-size: 12px;
                 line-height: 18px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 letter-spacing: 0.05em;
                 text-transform: uppercase;
                 color: #D2D4FF;
@@ -113,8 +132,12 @@
                 font-weight: normal;
                 font-size: 14px;
                 line-height: 21px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 color: #D2D4FF;
                 opacity: 0.8;
                 outline: none;

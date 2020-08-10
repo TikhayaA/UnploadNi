@@ -10,7 +10,9 @@
         background: none;    
     }
     &_title{
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         @media screen and (max-width: 750px){
             display: none;
         }
@@ -33,14 +35,20 @@
         &__title{
             background: #F1EEFC;
             border-radius: 10px;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             font-family: "Poppins", sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 12px;
             line-height: 18px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             letter-spacing: 0.05em;
             color: #7273CA;
             opacity: 0.8;
@@ -54,9 +62,13 @@
         &__title-mobile{
             display: none;
             @media screen and (max-width: 750px){
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 width: 220px;
-                order: 2;
+                -webkit-box-ordinal-group: 3;
+                    -ms-flex-order: 2;
+                        order: 2;
                 font-family: "Poppins",sans-serif;
                 font-style: normal;
                 font-weight: 600;
@@ -74,18 +86,22 @@
         }
         &__field{
             background: #FFFFFF;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+            -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
             border-radius: 10px;   
             position: relative;
             height: 50px;
             margin-bottom: 15px;
             @media screen and (max-width: 750px){
                 border-radius: 15px;
-                box-shadow: none;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
                 width: 320px;
                 padding: 20px;
-                box-sizing: border-box;
-                flex-wrap: wrap;
+                -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
                 margin: auto;
                 height: auto;
                 margin-bottom: 23px;
@@ -110,11 +126,14 @@
             @media screen and (max-width: 1200px){
                 width: 35%;
                 padding-left: 27px;
-                box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
               }
               @media screen and (max-width: 750px){
                 width: 220px;
-                order: 0;
+                -webkit-box-ordinal-group: 1;
+                    -ms-flex-order: 0;
+                        order: 0;
                 padding-left: 0px;
               }
               @media screen and (max-width: 400px){
@@ -122,7 +141,8 @@
             }
             .name-body_btn{
                 background: #F1EEFC;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+                -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+                        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
                 border-radius: 10px;
                 width: 36px;
                 height: 36px;
@@ -139,7 +159,9 @@
                 }
             }
             >div{
-                align-self: center;
+                -ms-flex-item-align: center;
+                    -ms-grid-row-align: center;
+                    align-self: center;
                 font-size: 16px;
             }
         }
@@ -185,10 +207,13 @@
     }  
     &__body{
         background: #FFFFFF;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+        -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
         border-radius: 10px;
         margin-bottom: 15px;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     &_wrap-field{
         width: 42%;
@@ -197,15 +222,22 @@
           }
           @media screen and (max-width: 750px){
             width: 45px;
-            order: 3;
-            flex-direction: column;;
+            -webkit-box-ordinal-group: 4;
+                -ms-flex-order: 3;
+                    order: 3;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;;
           }
           @media screen and (max-width: 400px){
             width: 30%;
         }
           &__size-body{
             width: 36%;
-            align-self: center;
+            -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+                align-self: center;
             @media screen and (max-width: 750px){
                 width: 60px;
                 margin-top: 38px;
@@ -215,7 +247,9 @@
         }
         &__download-body{
             width:36%;
-            align-self: center;
+            -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+                align-self: center;
             @media screen and (max-width: 750px){
                 width: 60px;
                 padding-bottom: 11px;
@@ -224,8 +258,11 @@
         }
         &__last-download-body{
             width: 8%;
-            justify-content: space-around;
-            align-self: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+                align-self: center;
             @media screen and (max-width: 750px){
                 width: 60px;
                 padding: 0 23px 11px 0;
@@ -239,10 +276,14 @@
     }
     &_download-wrap{
         width: 8%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         @media screen and (max-width: 750px){
             width: 50px;
-            order: 1;
+            -webkit-box-ordinal-group: 2;
+                -ms-flex-order: 1;
+                    order: 1;
           }
           @media screen and (max-width: 400px){
             width: 30%;
@@ -250,12 +291,17 @@
     }
     &_download-desktop{
         width: 100%;
-        justify-content: space-around;
-        align-self: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         @media screen and (max-width: 1200px){
             display: none;
         }
         @media screen and (max-width: 750px){
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
         }
         &_delete, &_download{
@@ -267,8 +313,12 @@
         }
     }
     &_download-ipad-wrap{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         @media screen and (max-width: 750px){
             display: none;
         }
@@ -287,10 +337,12 @@
         }
         &__btn{
             background: #FFFFFF;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+            -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
             border-radius: 10px;
             width: 120px;
-            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
             position: absolute;
             top: 55px;
             right: 1px;
@@ -334,7 +386,9 @@
         margin:30px auto 0;
         max-width: 240px;
         &__pos{
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
         }
         span{
             margin-left: 20px;

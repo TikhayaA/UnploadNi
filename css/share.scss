@@ -3,13 +3,16 @@
     border-radius: 25px;    
     width: 555px;
     padding: 26px 30px 27px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     @media screen and (max-width: 1200px){
         padding: 30px 30px 20px;
         width: 347px;
     }
     @media screen and (max-width: 750px){
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         width: 320px;
         padding: 20px 19px 20px 20px;
     }
@@ -17,19 +20,26 @@
         width: 98%;
     }
     &_date{
-       justify-content: space-between;
+       -webkit-box-pack: justify;
+           -ms-flex-pack: justify;
+               justify-content: space-between;
         width: 100%;
         margin:auto;
         @media screen and (max-width: 1200px){
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
         }
         &__block{
             width: 235px;
             position: relative;
-            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
             @media screen and (max-width: 1200px){
                 width: 290px;
-                box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
                 margin-bottom: 20px;
             }
             @media screen and (max-width: 750px){
@@ -60,9 +70,11 @@
         margin: 25px auto;
         height: 150px;
         padding: 14px 20px 20px 20px;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         @media screen and (max-width: 1200px){
-            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
             margin: 0 auto;
             width: 290px;
             padding: 20px 14px;
@@ -75,7 +87,9 @@
             width: 100%;
         }
         &__title{
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             padding-bottom: 11px;
             >p{
                 font-family: "Poppins", sans-serif;
@@ -83,8 +97,12 @@
                 font-weight: 600;
                 font-size: 12px;
                 line-height: 18px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 letter-spacing: 0.05em;
                 text-transform: uppercase;
                 color: #7577B6;
@@ -95,8 +113,12 @@
             font-weight: normal;
             font-size: 14px;
             line-height: 21px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             color: #7B7BA4;
             opacity: 0.8;
             outline: none;
@@ -129,7 +151,8 @@
             font-size: 12px;
             line-height: 18px;
             letter-spacing: 0.05em;
-            text-decoration-line: underline;
+            -webkit-text-decoration-line: underline;
+                    text-decoration-line: underline;
             text-transform: uppercase;
             color: #8B8CD4;
         }
@@ -160,11 +183,14 @@ label{
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #7577B6;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     padding-right: 13px;
 }
-

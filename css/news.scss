@@ -359,18 +359,6 @@ header .container.header-news-container {
   flex-direction: column;
   padding: 50px 0;
 
-  @media screen and (max-width: 1200px) {
-    max-width: none !important;
-    width: 100%;
-    margin: 0;
-  }
-  @media screen and (max-width: 767px) {
-    max-width: none !important;
-    width: 100%;
-    margin: 0;
-    min-height: max-content;
-  }
-
   .content {
     @media screen and (max-width: 767px) {
       display: flex;

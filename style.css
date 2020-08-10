@@ -2521,9 +2521,6 @@ main {
       width: 550px;
       box-sizing: border-box;
       height: 290px; }
-    .faq_block span{
-      text-transform:uppercase;
-    }
       @media screen and (max-width: 1200px) {
         .faq-category .faq-wrap .faq_block {
           width: 347px;
@@ -5173,17 +5170,6 @@ main {
   display: flex;
   flex-direction: column;
   padding: 50px 0; }
-  @media screen and (max-width: 1200px) {
-    .news_wrap {
-      max-width: none !important;
-      width: 100%;
-      margin: 0; } }
-  @media screen and (max-width: 767px) {
-    .news_wrap {
-      max-width: none !important;
-      width: 100%;
-      margin: 0;
-      min-height: max-content; } }
   @media screen and (max-width: 767px) {
     .news_wrap .content {
       display: flex;
@@ -5438,8 +5424,7 @@ main.news_main {
   min-height: max-content; }
   @media screen and (max-width: 1199px) {
     .news_details_wrap.container {
-      width: auto !important;
-      margin: 0 2.8%; } }
+      width: auto !important; } }
   @media screen and (max-width: 767px) {
     .news_details_wrap.container {
       width: 100% !important;
@@ -7940,17 +7925,6 @@ main.news_details_main {
   display: flex;
   flex-direction: column;
   padding: 50px 0; }
-  @media screen and (max-width: 1200px) {
-    .news_wrap {
-      max-width: none !important;
-      width: 100%;
-      margin: 0; } }
-  @media screen and (max-width: 767px) {
-    .news_wrap {
-      max-width: none !important;
-      width: 100%;
-      margin: 0;
-      min-height: max-content; } }
   @media screen and (max-width: 767px) {
     .news_wrap .content {
       display: flex;

@@ -24,9 +24,20 @@
             margin-right: 32px;
             &:after{
                 position: absolute;
-                content: url(img/faq_category/Vector\ 2.png);
+                content: url('../img/faq_category/Vector 2.png');
                 right: -18px;
 
+            }
+            a{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 21px;
+                display: flex;
+                align-items: center;
+                color: rgba(114, 115, 202, 0.5);
+                opacity: 0.8;
             }
         }
 
@@ -139,7 +150,7 @@
                     text-transform:uppercase;
                     &:after{
                         position: absolute;
-                        content: url(img/faq_category/Vector\ 2\ —\ копия.png);
+                        content: url('../img/faq_category/Vector 2 — копия.png');
                         right: -14px;
                     }
                 }

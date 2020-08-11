@@ -260,8 +260,8 @@ header .container.header-news-container {
     font-size: 14px;
     text-decoration: none;
     font-weight: 600;
-    
-    
+
+
     display: inline-block;
     text-transform: uppercase;
     margin: 0 10px 6px;
@@ -274,7 +274,6 @@ header .container.header-news-container {
     color: #9DE2F2;
     font-weight: 700;
     letter-spacing: .03em;
-    display: none;
 
     &:first-child,
     &:last-child {
@@ -308,52 +307,6 @@ header .container.header-news-container {
   }
 }
 
-@for $i from 1 through 80 {
-  .cdp[actpage="#{$i}"] {
-    // 2 before
-    .cdp_i:nth-child(#{$i - 1}):not(:first-child) {
-      display: inline-block;
-    }
-    // active
-    .cdp_i:nth-child(#{$i + 1}) {
-      background-color: #9DE2F2;
-      color: #fff;
-      display: inline-block;
-    }
-    // next
-    .cdp_i:nth-child(#{$i + 2}):not(:last-child) {
-      display: inline-block;
-    }
-    // 2 next
-    .cdp_i:nth-child(#{$i + 3}):not(:last-child) {
-      display: inline-block;
-    }
-    // 3 next
-    .cdp_i:nth-child(#{$i + 4}):not(:last-child):not(:nth-last-child(2)) {
-      display: inline-block;
-      pointer-events: none;
-      color: transparent;
-      border-color: transparent;
-      max-width: 20px;
-      min-width: 0;
-
-      &:after {
-        content: '';
-        background: url(img/news/ellipsis.svg)  0 0 no-repeat;
-        display: inline-block;
-        width: 20px;
-        height: 5px;
-        background-size: contain;
-      }
-    }
-
-    @media screen and (max-width: 767px) {
-      .cdp_i:nth-child(#{$i + 3}):not(:last-child) {
-        display: none;
-      }
-    }
-  }
-}
 .news_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -493,7 +446,7 @@ header .container.header-news-container {
     
             opacity: 0.8;
             
-            width: 100px;
+            width: 105px;
     
             img {
               margin-left: 10px;

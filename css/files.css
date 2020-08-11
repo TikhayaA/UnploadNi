@@ -4,7 +4,9 @@
   padding: 30px;
   margin-bottom: 65px; }
   .files_title {
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .files_title :nth-child(2) {
       font-family: "Poppins",sans-serif;
       font-style: normal;
@@ -22,14 +24,20 @@
     .files_table__title {
       background: #F1EEFC;
       border-radius: 10px;
-      justify-content: space-between;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       font-family: "Poppins", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 12px;
       line-height: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       letter-spacing: 0.05em;
       color: #7273CA;
       opacity: 0.8;
@@ -43,7 +51,8 @@
       width: 40%; }
       .files_table .name-body_btn {
         background: #F1EEFC;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+        -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
         border-radius: 10px;
         width: 36px;
         height: 36px;
@@ -57,7 +66,9 @@
         margin: 7px 17px 7px 8px;
         text-transform: uppercase; }
       .files_table .name-body > div {
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         font-size: 16px; }
     .files_table .size {
       width: 5%; }
@@ -67,28 +78,38 @@
       width: 22%; }
     .files_table .size-body {
       width: 9%;
-      align-self: center; }
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center; }
     .files_table .download-body {
       width: 8%;
-      align-self: center; }
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center; }
     .files_table .last_download-body {
       width: 22%;
-      justify-content: space-around;
-      align-self: center; }
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center; }
       .files_table .last_download-body_delete, .files_table .last_download-body_download {
         cursor: pointer; }
     .files_table__body {
       background: #FFFFFF;
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+      -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+              box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
       border-radius: 10px;
       margin-bottom: 15px;
-      justify-content: space-between; }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
   .files_button {
     margin: 30px auto 0;
     max-width: 240px; }
     .files_button__pos {
-      justify-content: space-between; }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
     .files_button span {
       margin-left: 20px; }
-
-/*# sourceMappingURL=files.css.map */

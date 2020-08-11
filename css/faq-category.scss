@@ -23,6 +23,17 @@
                 right: -18px;
 
             }
+            a{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 21px;
+                display: flex;
+                align-items: center;
+                color: rgba(114, 115, 202, 0.5);
+                opacity: 0.8;
+            }
         }
 
         &__active{

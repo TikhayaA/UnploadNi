@@ -3,9 +3,10 @@
   width: 400px;
   min-height: 250px;
   max-height: 300px;
-
   top: calc(50% - 150px);
   left: calc(50% - 250px);
+  display:none;
+  z-index: 11;
 
   .modal{
     position: relative;

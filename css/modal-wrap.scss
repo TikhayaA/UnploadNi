@@ -48,6 +48,9 @@
         margin-bottom: 20px;
         label{
             margin-right: 10px;
+            @media screen and (max-width: 750px){
+                margin-right: 0;
+            }
         }
         input{
             width: 90%;

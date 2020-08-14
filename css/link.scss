@@ -97,8 +97,12 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    @media screen and (max-width: 750px){
+        flex-direction: column;
+    }
 
     .chip {
+        position: relative;
         padding: 6px 11px;
         background: #F1EEFC !important;
         margin-right: 21px;
@@ -116,7 +120,14 @@
         color: rgba(0, 0, 0, 0.6);
         line-height: 32px;
         margin-bottom: 5px;
-
+        @media screen and (max-width: 750px){
+            margin-right: 5px;
+            padding: 6px 0 6px 5px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 165px;
+            white-space: nowrap;
+        }
         .material-icons{
             font-size: 24px;
             line-height: 1;
@@ -130,7 +141,7 @@
             -webkit-font-smoothing: antialiased;
         }
         .close{
-            position: relative;
+
             cursor: pointer;
             float: right;
             line-height: 32px;
@@ -146,6 +157,12 @@
             position: absolute;
             background: url(../img/close-icon.svg) 0 0 no-repeat;
             background-size: contain;
+            @media screen and (max-width: 750px){
+                width: 11px;
+                top: 1px;
+                right: 6px;
+                height: 15px;
+            }
         }
     }
 }

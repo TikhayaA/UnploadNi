@@ -186,22 +186,26 @@
         }
         .download{
             width: 18%;
+            text-align: center;
             @media screen and (max-width: 1200px){
                 width: 25%;
               }
               @media screen and (max-width: 750px){
                 width: 220px;
                 padding-bottom: 11px;
+                  text-align: left;
               }
         }
         .last_download{
             width: 24%;
+            text-align: center;
             @media screen and (max-width: 1200px){
                 width: 33%;
               }
               @media screen and (max-width: 750px){
                 width: 220px;
                 padding-bottom: 11px;
+                  text-align: left;
               }
         } 
     }  
@@ -389,6 +393,7 @@
             -webkit-box-pack: justify;
                 -ms-flex-pack: justify;
                     justify-content: space-between;
+            text-align: center;
         }
         span{
             margin-left: 20px;

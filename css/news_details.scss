@@ -70,13 +70,13 @@ header .container.header-news-container {
             line-height: 21px;
             display: flex;
             align-items: center;
-
+            text-decoration: none;
             color: rgba(#fff, 0.5);
 
             &:nth-child(3) {
               color: #FFFFFF;
             }
-            
+
             img {
               margin: 0 15px;
             }

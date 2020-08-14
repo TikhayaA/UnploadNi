@@ -193,4 +193,11 @@ label{
         -ms-grid-row-align: center;
         align-self: center;
     padding-right: 13px;
+
+    @media screen and (max-width: 1200px){
+        white-space: nowrap;
+    }
+    @media screen and (max-width: 320px){
+        white-space: normal;
+    }
 }

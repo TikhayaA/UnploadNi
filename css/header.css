@@ -45,7 +45,7 @@ header {
       border-radius: 5px;
       cursor: pointer; }
       header :nth-child(1) .select__title::after {
-        content: url(img/Vector2.svg);
+        content: url(../img/Vector2.svg);
         position: absolute;
         top: 50%;
         transform: translate(0, -50%);
